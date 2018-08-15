@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <CheckBox
+        android:id="@+id/cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:focusable="false" />
+
+    <!--<ImageView-->
+    <!--android:id="@+id/ivicon"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_toRightOf="@id/cb"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:minHeight="40dip" />-->
+
+    <TextView
+        android:id="@+id/itemvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/cb"
+        android:gravity="center_vertical"
+        android:textSize="18dip" />
+
+    <!--<Button-->
+    <!--android:id="@+id/button_all"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_toRightOf="@id/itemvalue"-->
+    <!--android:focusable="false"-->
+    <!--android:text="全选"-->
+    <!--/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/button_cancel"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_toRightOf="@id/button_all"-->
+    <!--android:focusable="false"-->
+    <!--android:text="全消"-->
+    <!--/>-->
+
+    <ImageView
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/ivec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:src="@mipmap/bt_arrow_down_gray" />
+
+
+</RelativeLayout>
